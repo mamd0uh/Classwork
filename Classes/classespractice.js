@@ -72,52 +72,52 @@
 
     // Extra Question
 
-    class Car {
-    constructor(number) {
-        this.number = number
-    }
-}
+//     class Car {
+//     constructor(number) {
+//         this.number = number
+//     }
+// }
 
-let num = 0
+// let num = 0
 
-const freighter = []
+// const freighter = []
 
-while (num <= 100) {
+// while (num <= 100) {
 
-    freighter.push(new Car(num))
+//     freighter.push(new Car(num))
 
-    num ++
-}
+//     num ++
+// }
 
-console.log(freighter)
-
-
-        //Exercise 3
+// console.log(freighter)
 
 
-class Governer {
-
-        static party = 'independent';
-        static age = 52;
-        static reelected = true;
+//         //Exercise 3
 
 
-   static vote() {
-        console.log('Yes')
-    }
-    static veto() {
-        console.log('No')
-    }
-    static fundraise(funds) {
+// class Governer {
 
-        funds = 
-        console.log("Fundraise is " + funds + " Dollars")
-    }
-}
+//         static party = 'independent';
+//         static age = 52;
+//         static reelected = true;
 
-Governer.vote()
-Governer.veto()
-Governer.fundraise(100)
+
+//    static vote() {
+//         console.log('Yes')
+//     }
+//     static veto() {
+//         console.log('No')
+//     }
+//     static fundraise(funds) {
+
+//         funds = 
+//         console.log("Fundraise is " + funds + " Dollars")
+//     }
+// }
+
+// Governer.vote()
+// Governer.veto()
+// Governer.fundraise(100)
 
     //Exercise 4
 
@@ -146,3 +146,22 @@ Governer.fundraise(100)
         
 //     }
 // }
+
+// function switcheroo(x){
+
+//     let word = x.split(" ");
+  
+//   for (let index = 0; index < word.length; index++) {
+//       if (word[index] == 'a') {
+//           word[index] = 'b';
+//       }
+//       else if (word[index] == 'b') {
+//           word[index] = 'a';
+//       }
+//   }
+  
+//     return word 
+
+  
+//   }
+
