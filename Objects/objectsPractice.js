@@ -45,11 +45,16 @@ const Radio = {
                 {artist:"The Notorious B.I.G",
                     title: "Big Poppa",
                 },
-            ]     
-        }
-    ]
-    let randomStation = function()
-    {
+            ],     
+        },
+    ],
+    randomStation(){
+        let stationIndex=Math.floor(Math.random()*3)
+        let songsIndex=Math.floor(Math.random()*3)
+        let newSong = Radio.stations[stationIndex].songs[songsIndex]
+        console.log("Now Playing: " + newSong.title + " by " + newSong.artist)
+    },
 
-    }
 }
+
+Radio.randomStation()
