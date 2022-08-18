@@ -34,4 +34,20 @@
 // console.log(a * a === d);
 // console.log(48 == '48');
 
-//D-
+//D-1/4  // let animal = "dog";
+// if (animal === "cow"){
+//     console.log ("mooooo")
+//  }
+//  else {
+//     console.log("Hey! You're not a cow.")
+//  }
+
+//E-1/2
+
+// let age = 10
+// if (age >= 16 ){
+// console.log ('Here are the keys!')
+// }
+// else if (age < 16){
+//     console.log("Sorry, you're too young.")
+// }
