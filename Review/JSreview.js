@@ -2,7 +2,7 @@
 // A-1 = (Equal sign)
 // A-2  resign with a value 
 // A-3  We will combine each variable to new variable 
-// A-4 DEclare, Assign, Define
+// A-4 Declare, Assign, Define
 // A-5
 // A-6
 
@@ -142,3 +142,66 @@
 // D3-
 //  ourClass.push('Cloud City')
 //  console.log(ourClass)
+
+
+// E. Mix it Up
+
+// const myArray = [5, 10, 500, 20];
+
+// 1. myArray.push("Aegon", "Music");
+// myArray.shift();
+// myArray.unshift("Bob Marley");
+// myArray.pop();
+// myArray.reverse(); 
+// console.log(myArray); 
+// Yes, the array was mutated. Mutate means to change the original structure.
+// It returned the Array backwords. 
+
+// F. Biggie Smalls
+
+// let number = 150;
+// if (number < 100) {
+//     console.log("little number");
+// } else {
+//     console.log("big number");
+// }
+
+// G. Monkey in the Middle 
+
+// let number = 7 
+
+// if (number < 5) {
+//     console.log('little number');
+// } else if (number > 10) {
+//     console.log('big number');
+// } else {
+//     console.log('monkey');
+// }
+
+// // H. What's in Your Closet?
+
+// H1 
+// console.log('Kristyn is rocking that ' + kristynsCloset[2] + ' today!');
+// H2- 
+// kristynsCloset.splice(6,0,'raybans');
+// console.log(kristynsCloset)
+// //H3- 
+// kristynsCloset[5] = 'stained knit hat'
+// console.log(kristynsCloset)
+// H4- console.log(thomsCloset[0][0])
+// H5- 
+// console.log(thomsCloset[1][1])
+// H6-
+// console.log(thomsCloset[2][1])
+// H7- 
+// console.log('Thom is looking fierce in a ' + thomsCloset[0][0] + ', ' + thomsCloset[1][1] + ' and ' + thomsCloset [2][1] + '!');
+// H8-
+// thomsCloset[1][2] = 'footie pajamas'
+// console.log(thomsCloset)
+
+// // IV.Functions
+
+// function printGreeting(name) {
+//         console.log("Hello there,  " + name + "!");
+// }
+// printGreeting('Mamdouh')
