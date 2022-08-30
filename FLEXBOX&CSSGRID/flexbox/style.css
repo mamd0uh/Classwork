@@ -1,0 +1,20 @@
+* {
+    /* height & width now includes border & padding */
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Helvetica;
+  }
+  nav {
+    display: flex;
+    height: 50px;
+    background-color: #a2cbb6;
+    font-size: 20px;
+    color: #f3dba8;
+    margin: 10px;
+    flex-direction: row;
+    align-items: left;
+    
+  }
