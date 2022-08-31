@@ -1,0 +1,58 @@
+body {
+  background: #241019;
+}
+
+.container {
+  width: 300px;
+  margin: 20px auto;
+  height: 300px;
+  display: grid;
+  grid-gap: 4px;
+  font-size: 0;
+  grid-template-rows: 100px 100px 1fr 1fr;
+  grid-template-columns: 80px 1fr 30px;
+  grid-template-areas: 
+  "one two two"
+  "three two two"
+  "four five six"
+  "four five seven";
+  background-color: #241019;
+}
+
+.item {
+  background: #e6e6e8;
+}
+
+.one {
+  grid-row: 1;
+  grid-column: 1;
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+  background-color: #de312a;
+}
+
+.three {
+  grid-area: three;
+
+}
+
+.four {
+  grid-area:four;
+  background-color: #0561a2;
+}
+
+.five {
+  grid-area:five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+  background-color: #eddb6f;
+}
