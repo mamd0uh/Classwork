@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.maincontainer{
+    height:100%;
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.container3{
+    position: absolute
+}
+.container1{
+    
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container2{
+    
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sect1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.sect2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    transform:rotate(90);
+}
+.sec2 :hover{
+transform: rotate(-30px);
+}
+.sect3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.sect4{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}

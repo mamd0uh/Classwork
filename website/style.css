@@ -1,0 +1,16 @@
+body {
+    background: white;
+  }
+.header {
+    background-color: #1cabe2;
+    display: flex;
+    height: 75px;
+    align-items: center;
+}
+.menu {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1%;
+    height: auto;
+}

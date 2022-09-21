@@ -1,0 +1,66 @@
+body {
+
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     height: 100vh;
+     margin: 0; 
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.rules {
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .3em;
+    border: none;
+    outline: none;
+
+}
+
+.rules:hover, .rules:focus {
+    transform: scale(1.1);
+}
+
+.modal {
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+    z-index: 10; 
+
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header .rules-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+.modal-header .close {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .rules-body {
+    padding: 10px 15px;
+  }
